@@ -1,0 +1,8 @@
+2023-03-02 13:59:06,007 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 13:59:06,009 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-02 13:59:06,010 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-03-02 13:59:12,087 INFO com.besysoft.bootcampspringboot.controlador.PersonajeController [http-nio-8080-exec-3] Ocurrio una validacion en:
+2023-03-02 13:59:12,097 ERROR com.besysoft.bootcampspringboot.controlador.PersonajeController [http-nio-8080-exec-3] Campo: nombre validacion: El nombre del personaje debe contener solo letras
+2023-03-02 13:59:44,244 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 13:59:44,245 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-02 13:59:44,247 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

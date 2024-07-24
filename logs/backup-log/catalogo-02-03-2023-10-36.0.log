@@ -1,0 +1,43 @@
+2023-03-02 10:36:11,243 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-02 10:36:11,249 INFO org.springframework.boot.StartupInfoLogger [main] Starting BootcampSpringBootApplication using Java 18.0.1.1 on DESKTOP-ANCEPNC with PID 26516 (C:\Users\Administrador\Desktop\bootcamp-spring-boot\target\classes started by Administrador in C:\Users\Administrador\Desktop\bootcamp-spring-boot)
+2023-03-02 10:36:11,249 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-02 10:36:11,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02 10:36:11,760 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2023-03-02 10:36:12,117 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-02 10:36:12,123 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-02 10:36:12,124 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-02 10:36:12,126 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-02 10:36:12,198 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-02 10:36:12,198 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 905 ms
+2023-03-02 10:36:12,214 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-02 10:36:12,322 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-02 10:36:12,329 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDb'
+2023-03-02 10:36:12,430 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02 10:36:12,463 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-02 10:36:12,562 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-02 10:36:12,636 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-02 10:36:13,094 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02 10:36:13,099 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 10:36:13,431 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serieController' defined in file [C:\Users\Administrador\Desktop\bootcamp-spring-boot\target\classes\com\besysoft\bootcampspringboot\controlador\SerieController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.besysoft.bootcampspringboot.dto.mapper.SerieMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-03-02 10:36:13,432 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 10:36:13,433 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-03-02 10:36:13,435 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-03-02 10:36:13,436 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-03-02 10:36:13,443 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-02 10:36:13,454 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.besysoft.bootcampspringboot.controlador.SerieController required a bean of type 'com.besysoft.bootcampspringboot.dto.mapper.SerieMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.besysoft.bootcampspringboot.dto.mapper.SerieMapper' in your configuration.
+
